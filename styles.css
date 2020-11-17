@@ -1,0 +1,182 @@
+.header{
+	color:white;		/*font color*/
+	font-style:italic;		/*font style is italic*/
+	font-size:45px;		/*size of font*/
+	text-align:center;		/*align the text to the center*/
+	padding:40px;		/*Padding between text and box is 40 pixels*/
+	background-color:DarkCyan;		/*Box color is Dark Cyan*/
+	font-family:"Times New Roman",sans-serif,Arial;		/*Fonts*/
+}
+
+.hobbies-image{
+	float:right;		/*Allows the image to have text beside it*/
+	border-radius:8px;		/*Causes the edges to be round*/
+	border-color:white;		/*Color of the border is white*/
+	padding:5px;		/*Padding between the box and the image is 5 pixels*/
+}
+
+.biomed-image{
+	float:right;		/*Allows the image to have text beside it*/
+	border-radius:8px;		/**/
+	border-style:double;	/**/
+	border-color:Navy;		/**/
+	padding:5px;		/**/
+}
+.biomed-image2{
+	float:left;		/**/
+	border-radius:8px;		/**/
+	border-style:double;		/**/
+	border-color:Navy;		/**/
+	padding:5px;	/**/
+}		
+.trinidad-flag{
+	float:right;		/**/
+	border-radius:8px;		/**/
+	border-style:double;		/**/
+	border-color:white;		/**/
+	padding:5px;		/**/
+	display:inline;		/**/
+}
+
+.trinidad-food{
+	transform:translate(13%,1%);		/**/
+	border-radius:8px;		/**/
+	border-style:double;		/**/
+	border-color:white;		/**/
+	padding:5px;		/**/
+}
+.chinese-food{	
+	transform:translate(5%,1%);		/**/
+	border-radius:8px;		/**/
+	border-style:double;			/**/
+	border-color:white;		/**/
+	padding:5px;		/**/
+}
+
+.chinese-flag{
+	float:left;		/**/
+	border-radius:8px;		/**/
+	border-style:double;		/**/
+	border-color:white;		/**/
+	padding:5px;		/**/
+}
+.home-body{
+	background-image:url("images/desktop.jpg");		/**/
+	background-size: cover;		/**/
+	background-repeat:no-repeat;		/**/
+}
+.hobbies-body{
+	background-image:url("images/basketball2.jpg");		/**/
+	background-size:cover;		/**/
+	background-repeat:no-repeat;		/**/
+}
+.future-body{
+	background-image:url("images/future.jpg");		/**/
+	background-size:150%;		/**/	
+	background-repeat:no-repeat;		/**/
+}
+.culture-body{
+	background-image:url("images/culture.jpg");		/**/
+	background-size: cover;		/**/
+	background-repeat:no-repeat;		/**/
+}
+
+.reference-body{
+	background-color:PapayaWhip;		/**/
+	background-size: cover;		/**/
+}
+
+a{
+	
+	font-style:italic;	/**/
+}
+
+
+.sub-title{
+	margin-left:auto;		/**/
+	margin-right:auto;	/**/
+	border-style:double;	/**/
+	border-color:transparent;		/**/
+	color:black;		/**/
+	text-align:center;		/**/
+	font-size:20px;		/**/
+	background-color:Honeydew;		/**/
+
+}
+
+.buttons .button:hover{
+	background-color:LightSeaGreen;		/**/
+}
+.home-buttons{
+	transform:translate(250%,100%);		/**/
+	background-color:LightBlue;		/**/
+	width:130px;		/**/
+	height:60px;		/**/
+	padding:10px;		/**/
+	border-radius:8px;	/**/
+	border-color:black;	/**/
+	text-align:center;	/**/
+	color:black;		/**/
+	display:inline-block;	/**/
+	font-size:30px;		/**/
+	font-family:"Times New Roman",Arial,sans-serif;		/**/
+}
+.hobbies-buttons{
+	transform:translate(150%,300%);		/**/
+	background-color:LightBlue;		/**/
+	width:130px;		/**/
+	height:60px;		/**/
+	padding:10px;		/**/
+	border-radius:8px;		/**/
+	border-color:black;		/**/
+	text-align:center;		/**/
+	color:black;		/**/	
+	display:inline-block;	/**/
+	font-size:30px;		/**/
+	font-family:"Times New Roman",Arial,sans-serif;		/**/
+}
+
+.history-buttons{		
+	transform:translate(250%,180%);		/**/
+	background-color:LightBlue;		/**/
+	width:130px;		/**/
+	height:60px;		/**/
+	padding:10px;		/**/
+	border-radius:8px;		/**/
+	border-color:black;		/**/
+	text-align:center;		/**/
+	color:black;	/**/
+	display:inline-block;	/**/
+	font-size:30px;		/**/
+	font-family:"Times New Roman",Arial,sans-serif;		/**/
+}
+.future-buttons{
+	transform:translate(250%,75%);		/**/
+	background-color:LightBlue;		/**/
+	width:130px;		/**/
+	height:60px;		/**/
+	padding:10px;		/**/
+	border-radius:8px;			/**/
+	border-color:black;		/**/
+	text-align:center;		/**/
+	color:black;		/**/
+	display:inline-block;			/**/
+	font-size:30px;		/**/
+	font-family:"Times New Roman",Arial,sans-serif;		/**/
+}
+
+.reference-buttons{
+	transform:translate(250%,75%);		/**/
+	background-color:LightBlue;		/**/
+	width:130px;		/**/
+	height:60px;		/**/
+	padding:10px;		/**/
+	border-radius:8px;		/**/
+	border-color:black;	/**/
+	text-align:center;	/**/
+	color:black;		/**/
+	display:inline-block;	/**/
+	font-size:30px;		/**/
+	font-family:"Times New Roman",Arial,sans-serif;	/**/
+}
+
