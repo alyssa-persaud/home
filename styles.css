@@ -158,7 +158,7 @@ ol,ul{
 	font-family:"Times New Roman",Arial,sans-serif;		/*font types*/
 }
 .hobbies-buttons{
-	transform:translate(150%,300%);		/*Moves the image based on the percentage coordinates*/
+	transform:translate(200%,300%);		/*Moves the image based on the percentage coordinates*/
 	background-color:LightBlue;		/*Background color of the buttons is light blue*/
 	width:130px;		/*width of the buttons*/
 	height:60px;		/*height of the buttons*/
