@@ -1,0 +1,218 @@
+.header{
+	color:white;		/*font color*/
+	font-style:italic;		/*font style is italic*/
+	font-size:45px;		/*size of font*/
+	text-align:center;		/*align the text to the center*/
+	padding:40px;		/*Padding between text and box is 40 pixels*/
+	background-color:DarkCyan;		/*Box color is Dark Cyan*/
+	font-family:"Times New Roman",sans-serif,Arial;		/*Font types*/
+}
+
+.hobbies-image{
+	float:right;		/*Allows the image to have text beside it*/
+	border-radius:8px;		/*Causes the edges to be round*/
+	border-color:white;		/*Color of the border is white*/
+	padding:5px;		/*Padding between the box and the image is 5 pixels*/
+}
+
+.biomed-image{
+	float:right;		/*Allows the image to have text beside it*/
+	border-radius:8px;		/*Causes the edges to be round*/
+	border-style:double;	/* The border style is double*/
+	border-color:Navy;		/* Color of the border is navy*/
+	padding:5px;		/*Padding between the box and the image is 5 pixels*/
+}
+.biomed-image2{
+	float:left;		/*Allows the image to have text beside it*/
+	border-radius:8px;		/*Causes the edges to be round*/
+	border-style:double;		/*The border style is double*/
+	border-color:Navy;		/*Color of the border is navy*/
+	padding:5px;	/*Padding between the box and the image is 5 pixels*/
+}		
+.trinidad-flag{
+	float:right;		/*Allows the image to have text beside it*/
+	border-radius:8px;		/*Causes the edges to be round*/
+	border-style:double;		/*The border style is double*/
+	border-color:white;		/*Color of the border is white*/
+	padding:5px;		/*Padding between the box and the image is 5 pixels*/
+	display:inline;		/*Inline with other images*/
+}
+
+.trinidad-food{
+	transform:translate(13%,1%);		/*Moves the image based on the percentage coordinates*/
+	border-radius:8px;		/*Causes the edges to be round*/
+	border-style:double;		/*The border style is double*/
+	border-color:white;		/*Color of the border is white*/
+	padding:5px;		/*Padding between the box and the image is 5 pixels*/
+}
+.chinese-food{	
+	transform:translate(5%,1%);		/*Moves the image based on the percentage coordinates*/
+	border-radius:8px;		/*Causes the edges to be round*/
+	border-style:double;			/*The border style is double*/
+	border-color:white;		/*Color of the border is white*/
+	padding:5px;		/*Padding between the box and the image is 5 pixels*/
+}
+
+.chinese-flag{
+	float:left;		/*Allows the image to have text beside it*/
+	border-radius:8px;		/*Causes the edges to be round*/
+	border-style:double;		/*The border style is double*/
+	border-color:white;		/*Color of the border is white*/
+	padding:5px;		/*Padding between the box and the image is 5 pixels*/
+}
+.home-body{
+	background-image:url("images/desktop.jpg");		/*Background image of the home page*/
+	background-size: cover;		/*Covers entire screen*/
+	background-repeat:no-repeat;		/*Prevents image from repeating*/
+}
+.hobbies-body{
+	background-image:url("images/basketball2.jpg");		/*Background image of the hobbies page*/
+	background-size:cover;		/*Covers entire screen*/
+	background-repeat:no-repeat;		/*Prevents image from repeating*/
+}
+.future-body{
+	background-image:url("images/future.jpg");		/*Background image of the future page*/
+	background-size:150%;		/*Covers entire screen*/	
+	background-repeat:no-repeat;		/*Prevents image from repeating*/
+}
+.culture-body{
+	background-image:url("images/culture.jpg");		/*Background image of the history page*/
+	background-size: cover;		/*Covers entire screen*/
+	background-repeat:no-repeat;		/*Prevents image from repeating*/
+}
+
+.reference-body{
+	background-color:PapayaWhip;		/*Background color of the reference page*/
+	background-size: cover;		/*Covers entire screen*/
+}
+
+a{
+	
+	font-style:italic;	/*Font style of the links in the buttons are italic*/
+}
+
+ol,ul{
+	font-style:italic;	/*Font style of the list items are italic*/
+	font-family:"Times New Roman", sans-serif, Arial;		/*Font types*/
+	border-color:transparent;		/*Border color is transparent*/
+	color:black;		/*font color*/
+	font-size:20px;		/*size of font*/
+	background-color:Honeydew;		/*background color*/
+
+}
+
+
+
+.validate-home{
+	transform:translate(260%,200%);		/*Moves the HTML validator image*/
+}
+.validate-future{
+	transform:translate(350%,200%);		/*Moves the HTML validator image*/
+}
+.validate-hobbies{
+	transform:translate(10%,260%);		/*Moves the HTML validator image*/
+}
+.validate-history{
+	transform:translate(10%,150%);		/*Moves the HTML validator image*/
+}
+
+.css-validate{
+	transform:translate(350%,200%);		/*Moves the CSS validator image*/
+}
+.sub-title{
+	margin-left:auto;		/*Margin at the top left is auto*/
+	margin-right:auto;	/*Margin at the top right is auto*/
+	border-style:double;	/*Border style is double*/
+	border-color:transparent;		/*Border color is transparent*/
+	color:black;		/*font color*/
+	text-align:center;		/*Align text to center*/
+	font-size:20px;		/*size of font*/
+	background-color:Honeydew;		/*background color*/
+
+}
+
+.reference-title{
+	border-style:double;	/*Border style is double*/
+	border-color:transparent;		/*Border color is transparent*/
+	color:black;		/*font color*/
+	text-align:left;		/*Align text to center*/
+	font-size:20px;		/*size of font*/
+	background-color:Honeydew;		/*background color*/
+}
+
+.buttons .button:hover{
+	background-color:LightSeaGreen;		/*When mouse hover's over button, changes color to Light Sea Green*/
+}
+.home-buttons{
+	transform:translate(250%,100%);		/*Moves the image based on the percentage coordinates*/
+	background-color:LightBlue;		/*Background color of the buttons is light blue*/
+	width:130px;		/*width of the buttons*/
+	height:60px;		/*height of the buttons*/
+	padding:10px;		/*Padding between the box and the text is 10 pixels*/
+	border-radius:8px;	/*Causes the edges to be round*/
+	border-color:black;	/*border color*/
+	text-align:center;	/*align text to the center*/
+	color:black;		/*font color*/
+	display:inline-block;	/*Inline with other buttons but nothing else*/
+	font-size:30px;		/*size of font*/
+	font-family:"Times New Roman",Arial,sans-serif;		/*font types*/
+}
+.hobbies-buttons{
+	transform:translate(150%,300%);		/*Moves the image based on the percentage coordinates*/
+	background-color:LightBlue;		/*Background color of the buttons is light blue*/
+	width:130px;		/*width of the buttons*/
+	height:60px;		/*height of the buttons*/
+	padding:10px;		/*Padding between the box and the text is 10 pixels*/
+	border-radius:8px;		/*Causes the edges to be round*/
+	border-color:black;		/*border color*/
+	text-align:center;		/*align text to the center*/
+	color:black;		/*font color*/	
+	display:inline-block;	/*Inline with other buttons but nothing else*/
+	font-size:30px;		/*size of font*/
+	font-family:"Times New Roman",Arial,sans-serif;		/*font types*/
+}
+
+.history-buttons{		
+	transform:translate(250%,180%);		/*Moves the image based on the percentage coordinates*/
+	background-color:LightBlue;		/*Background color of the buttons is light blue*/
+	width:130px;		/*width of the buttons*/
+	height:60px;		/*height of the buttons*/
+	padding:10px;		/*Padding between the box and the text is 10 pixels*/
+	border-radius:8px;		/*Causes the edges to be round*/
+	border-color:black;		/*border color*/
+	text-align:center;		/*align text to the center*/
+	color:black;	/*font color*/
+	display:inline-block;	/*Inline with other buttons but nothing else*/
+	font-size:30px;		/*size of font*/
+	font-family:"Times New Roman",Arial,sans-serif;		/*font types*/
+}
+.future-buttons{
+	transform:translate(250%,75%);		/*Moves the image based on the percentage coordinates*/
+	background-color:LightBlue;		/*Background color of the buttons is light blue*/
+	width:130px;		/*width of the buttons*/
+	height:60px;		/*height of the buttons*/
+	padding:10px;		/*Padding between the box and the text is 10 pixels*/
+	border-radius:8px;			/*Causes the edges to be round*/
+	border-color:black;		/*border color*/
+	text-align:center;		/*align text to the center*/
+	color:black;		/*font color*/
+	display:inline-block;			/*Inline with other buttons but nothing else*/
+	font-size:30px;		/*size of font*/
+	font-family:"Times New Roman",Arial,sans-serif;		/*font types*/
+}
+
+.reference-buttons{
+	transform:translate(250%,75%);		/*Moves the image based on the percentage coordinates*/
+	background-color:LightBlue;		/*Background color of the buttons is light blue*/
+	width:130px;		/*width of the buttons*/
+	height:60px;		/*height of the buttons*/
+	padding:10px;		/*Padding between the box and the image is 10 pixels*/
+	border-radius:8px;		/*Causes the edges to be round*/
+	border-color:black;	/*border color*/
+	text-align:center;	/*align text to the center*/
+	color:black;		/*font color*/
+	display:inline-block;	/*Inline with other buttons but nothing else*/
+	font-size:30px;		/*size of font*/
+	font-family:"Times New Roman",Arial,sans-serif;	/*font types*/
+}
+
